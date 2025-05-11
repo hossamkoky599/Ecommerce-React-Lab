@@ -1,0 +1,59 @@
+.card{
+    background-color: transparent;
+    height:85% ;
+    cursor: pointer;
+    .checkStuck{
+        margin-bottom: 5px;
+        text-align: end;
+        span{
+       
+            padding: 4px;
+            font-size:15px ;
+            font-weight: 700;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 12px;
+        }
+    }
+    .inStock{
+        color: #fff;
+        background-color: green;
+    }
+    .outOfStock{
+        color: #fff;
+        background-color: red;
+    }
+    img{
+        background-color: #fff;
+        border: 1px solid #0000001e;
+        border-radius: 12px;
+        height: 55%;
+    }
+    .card-head{
+        h4{
+            font-size: 16px;
+            font-weight: bolder;
+            font-family:cursive;
+        }
+    }
+    .content{
+        p{
+            font-size: 15px;
+            font-weight: 600;
+        }
+        span{
+            font-size: 17px;
+            font-weight: bolder;
+            font-family: fantasy;
+            color: aliceblue;
+            background-color:darkgray;
+            padding: 4px 4px 2px 4px;
+            border-radius: 50%;
+        }
+    }
+    .footer{
+        button{
+            border-radius: 22px;
+       
+        }
+    }
+}

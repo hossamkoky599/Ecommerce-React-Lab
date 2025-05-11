@@ -1,0 +1,9 @@
+.notFCon{
+    .image{
+        width: 84%;
+        
+        img{
+            width: 100%;
+        }
+    }
+}

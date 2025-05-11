@@ -1,0 +1,20 @@
+.added{
+    border-radius: 20px;
+    background-color:floralwhite;
+   .title{
+    font-size: 22px;
+    color: #00000058;
+    text-shadow: 15px 15px 9px gainsboro;
+   }
+   .proImg{
+    background-color: transparent;
+    
+        i{
+              cursor: pointer;
+              font-size: 25px;
+        }
+        button{
+            border: none;
+        }
+   }
+}

@@ -1,0 +1,28 @@
+.container{
+    nav{
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        .nav-link{
+            color: black !important;
+            font-size: larger;
+            font-weight: bolder;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            transition: all 0.4s;
+        }
+        .nav-link:hover{
+            color: #fff !important;
+        }
+        .cart{
+            position: relative;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .counter{
+            position: absolute;
+            top: 0px;
+            right: -10px;
+            color: #fff;
+            font-size: 19px;
+            font-family: fantasy;
+        }
+    }
+}
