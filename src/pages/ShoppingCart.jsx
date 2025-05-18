@@ -1,7 +1,7 @@
 import React, {  useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import { axiosInstance } from "../apis/config";
-import AddedToCart from "../components/addedToCart";
+import AddedToCart from '../components/AddedToCart';
 import "../assets/css/cart.css"
 function ShoppingCart() {
 const [product, setProduct] = useState([]);

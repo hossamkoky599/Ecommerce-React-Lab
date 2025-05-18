@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import LayoutWithHeader from '../components/LayoutWithHeader';
 import ProductList from '../pages/ProductList';
 import ProductDetails from '../pages/ProductDetails';
-import ShoppingCart from '../pages/shoppingCart';
+import ShoppingCart from '../pages/ShoppingCart';
 import NotFound from '../pages/NotFound';
 
 
